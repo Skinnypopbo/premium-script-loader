@@ -3,7 +3,7 @@ local gameId = game.PlaceId
 local Inkgame = 99567941238278
 local ink = 125009265613167
 
-else if gameId == Inkgame then
+if gameId == Inkgame then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ink-Game/refs/heads/main/Ink"))()
 else if gameId == ink then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ink-Game/refs/heads/main/Ink"))()
