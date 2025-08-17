@@ -4,12 +4,24 @@ local Inkgame = 99567941238278
 local ink = 125009265613167
 local ArcadeBasketBall = 134558434771720
 
+--Basketball stars 3
+local Beginner = 18638157143
+local Intermediate = 113454014057557
+local Advanced = 117737879114585
+local private = 18668109315
+local Lobby = 15583100726
+local AFK = 138786645426705
+local Park = 131054006918765
+local Rec = 111682393431323
+
 if gameId == Inkgame then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ink-Game/refs/heads/main/Ink"))()
 else if gameId == ink then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ink-Game/refs/heads/main/Ink"))()
 else if gameId == ArcadeBasketBall then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcade-BasketBall/refs/heads/main/Arcade"))()
+else if gameId == Beginner or Intermediate or Advanced or private or Lobby or AFK or Park or Rec then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Basketball-Stars-3/refs/heads/main/Stars"))()
 
 --if you get this your just dumb and slow :(
 else if gameId == nil then
